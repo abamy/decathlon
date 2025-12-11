@@ -1,6 +1,8 @@
+/* Decathlon footer style */
 footer {
   background-color: var(--light-color);
   font-size: var(--body-font-size-xs);
+  border-top: 1px solid #e8e8e8;
 }
 
 footer .footer > div {
@@ -9,12 +11,56 @@ footer .footer > div {
   padding: 40px 24px 24px;
 }
 
+footer .footer h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  color: var(--text-color);
+}
+
+footer .footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+footer .footer ul li {
+  margin: 0 0 8px 0;
+}
+
+footer .footer a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+footer .footer a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
 footer .footer p {
   margin: 0;
+  padding-top: 32px;
+  border-top: 1px solid #e8e8e8;
+  color: var(--dark-color);
+  font-size: 12px;
+}
+
+footer .footer p a {
+  font-size: 12px;
 }
 
 @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+
+  footer .footer > div > *:last-child {
+    grid-column: 1 / -1;
   }
 }

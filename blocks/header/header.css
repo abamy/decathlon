@@ -1,9 +1,10 @@
-/* header and nav layout */
+/* header and nav layout - Decathlon style */
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
   z-index: 2;
   position: fixed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header nav {
