@@ -14,18 +14,18 @@ footer .footer > div {
 footer .footer h2 {
   font-size: 14px;
   font-weight: 700;
-  margin: 0 0 16px 0;
+  margin: 0 0 16px;
   color: var(--text-color);
 }
 
 footer .footer ul {
   list-style: none;
   padding: 0;
-  margin: 0 0 32px 0;
+  margin: 0 0 32px;
 }
 
 footer .footer ul li {
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
 }
 
 footer .footer a {
@@ -33,11 +33,6 @@ footer .footer a {
   text-decoration: none;
   font-size: 14px;
   line-height: 1.43;
-}
-
-footer .footer a:hover {
-  color: var(--link-color);
-  text-decoration: underline;
 }
 
 footer .footer p {
@@ -50,6 +45,11 @@ footer .footer p {
 
 footer .footer p a {
   font-size: 12px;
+}
+
+footer .footer a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
 }
 
 @media (width >= 900px) {

@@ -15,4 +15,9 @@ module.exports = {
     'linebreak-style': ['error', 'unix'], // enforce unix linebreaks
     'no-param-reassign': [2, { props: false }], // allow modifying properties of param
   },
+  ignorePatterns: [
+    'content/images/*.js', // Ignore image generation utility scripts
+    'migration-work/**', // Ignore migration temporary files
+    'tools/**', // Ignore tooling scripts
+  ],
 };
