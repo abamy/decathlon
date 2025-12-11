@@ -1,0 +1,86 @@
+/* Decathlon promotional banner with image and text */
+.columns-banner {
+  background-color: var(--light-color);
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.columns-banner > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.columns-banner img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.columns-banner > div > div {
+  order: 1;
+}
+
+.columns-banner > div > .columns-banner-img-col {
+  order: 0;
+}
+
+.columns-banner > div > .columns-banner-img-col img {
+  display: block;
+}
+
+.columns-banner h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 12px 0;
+  color: var(--text-color);
+}
+
+.columns-banner p {
+  font-size: 14px;
+  line-height: 1.43;
+  margin: 0 0 16px 0;
+  color: var(--dark-color);
+}
+
+.columns-banner a.button {
+  display: inline-block;
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-color);
+  padding: var(--button-padding);
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+  letter-spacing: var(--button-letter-spacing);
+  border-radius: var(--button-border-radius);
+  text-decoration: none;
+  transition: var(--button-transition);
+}
+
+.columns-banner a.button:hover {
+  background-color: var(--link-hover-color);
+}
+
+@media (width >= 900px) {
+  .columns-banner {
+    padding: 40px;
+  }
+
+  .columns-banner > div {
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .columns-banner > div > div {
+    flex: 1;
+    order: unset;
+  }
+
+  .columns-banner h2 {
+    font-size: 24px;
+  }
+
+  .columns-banner p {
+    font-size: 16px;
+  }
+}

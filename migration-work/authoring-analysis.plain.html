@@ -1,0 +1,213 @@
+<div><h1 id="authoring-analysis---decathlon-homepage">Authoring Analysis - Decathlon Homepage</h1><h2 id="step-3-authoring-decisions-for-each-content-sequence">Step 3: Authoring Decisions for Each Content Sequence</h2><h3 id="section-1-white-background-hero-promotional-banners">Section 1 (white background): Hero Promotional Banners</h3><ul>
+<li><strong>Sequence 1</strong>: "Three large promotional cards arranged horizontally, each with background image, promotional text overlay, and call-to-action button"
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO - requires structured grid with repeating pattern</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (3 rows, 2 columns each: image | text+link)</li>
+<li><strong>Reason</strong>: Repeating structured pattern (3 items) - obvious match with cards block</li>
+<li><strong>Block structure</strong>: Each card = 1 row with 2 columns [image | heading, paragraph, link]</li>
+</ul>
+</li>
+</ul><h3 id="section-2-white-background-category-navigation">Section 2 (white background): Category Navigation</h3><ul>
+<li><strong>Sequence 1</strong>: "Six category links arranged horizontally in a single row"
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? YES - just links</li>
+<li><strong>Decision</strong>: <strong>DEFAULT CONTENT</strong></li>
+<li><strong>Reason</strong>: Author can simply type six links</li>
+</ul>
+</li>
+</ul><h3 id="section-3-white-background-promotional-cards">Section 3 (white background): Promotional Cards</h3><ul>
+<li><strong>Sequence 1</strong>: "Three promotional cards arranged horizontally, each with product image, promotional text, price, and call-to-action button"
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO - requires structured grid</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (3 rows, 2 columns each: image | text+link)</li>
+<li><strong>Reason</strong>: Repeating structured pattern (3 items) - obvious match</li>
+<li><strong>Block structure</strong>: Each card = 1 row with 2 columns [image | heading, paragraph, link]</li>
+</ul>
+</li>
+</ul><h3 id="section-4-white-background-product-category-carousel">Section 4 (white background): Product Category Carousel</h3><ul>
+<li>
+<p><strong>Sequence 1</strong>: "Single centered heading"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? YES</li>
+<li><strong>Decision</strong>: <strong>DEFAULT CONTENT</strong></li>
+<li><strong>Reason</strong>: Just a heading</li>
+</ul>
+</li>
+<li>
+<p><strong>Sequence 2</strong>: "Horizontal scrollable row of category tiles, each with image and text label"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO - requires structured pattern</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (6+ rows, 2 columns each: image | text)</li>
+<li><strong>Reason</strong>: Repeating items in grid - cards block handles this. CSS will style horizontal scrolling</li>
+<li><strong>Block structure</strong>: Each tile = 1 row with 2 columns [image | text label]</li>
+<li><strong>Note</strong>: Carousel block is for full-width rotating images, not category tiles</li>
+</ul>
+</li>
+</ul><h3 id="section-5-white-background-featured-products-with-banner">Section 5 (white background): Featured Products with Banner</h3><ul>
+<li><strong>Sequence 1</strong>: "Two-column layout: large promotional banner on left with image and call-to-action, grid of 4 product cards on right"
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO - complex two-column layout with nested grid</li>
+<li><strong>Decision</strong>: <strong>Columns block</strong> (2 columns: banner content | nested cards)</li>
+<li><strong>Reason</strong>: Side-by-side layout - obvious match with columns block</li>
+<li><strong>Block structure</strong>: 1 row, 2 columns
+<ul>
+<li>Column 1: image, heading, link</li>
+<li>Column 2: Will need nested cards block OR separate cards block after this</li>
+</ul>
+</li>
+<li><strong>Alternative approach</strong>: Could use two separate blocks: banner cards (1 card) + product cards (4 cards)</li>
+</ul>
+</li>
+</ul><h3 id="section-6-white-background-interest-carousel">Section 6 (white background): Interest Carousel</h3><ul>
+<li>
+<p><strong>Sequence 1</strong>: "Single centered heading"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? YES</li>
+<li><strong>Decision</strong>: <strong>DEFAULT CONTENT</strong></li>
+<li><strong>Reason</strong>: Just a heading</li>
+</ul>
+</li>
+<li>
+<p><strong>Sequence 2</strong>: "Horizontal scrollable row of category tiles, each with image and text label"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (6+ rows, 2 columns each: image | text)</li>
+<li><strong>Reason</strong>: Same pattern as Section 4 Sequence 2</li>
+</ul>
+</li>
+</ul><h3 id="section-7-light-grey-background-winter-products">Section 7 (light grey background): Winter Products</h3><ul>
+<li><strong>Sequence 1</strong>: "Two-column layout: large promotional banner on left with image and link, grid of 4 product cards on right"
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO - complex layout</li>
+<li><strong>Decision</strong>: <strong>Two separate blocks</strong> is more author-friendly:
+<ul>
+<li><strong>Cards block</strong> (1 row for banner: image | text+link)</li>
+<li><strong>Cards block</strong> (4 rows for products: image | text)</li>
+</ul>
+</li>
+<li><strong>Reason</strong>: Simpler authoring than nested blocks. Authors create one card for banner, then four cards for products</li>
+<li><strong>Alternative</strong>: Could use Columns block like Section 5</li>
+</ul>
+</li>
+</ul><h3 id="section-8-dark-purpleblue-background-live-shopping">Section 8 (dark purple/blue background): Live Shopping</h3><ul>
+<li>
+<p><strong>Sequence 1</strong>: "Centered heading and descriptive paragraph stacked vertically"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? YES</li>
+<li><strong>Decision</strong>: <strong>DEFAULT CONTENT</strong></li>
+<li><strong>Reason</strong>: Just heading and paragraph</li>
+</ul>
+</li>
+<li>
+<p><strong>Sequence 2</strong>: "Three live shopping cards arranged horizontally, each with thumbnail image, title text, and call-to-action button"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (3 rows, 2 columns each: image | text+link)</li>
+<li><strong>Reason</strong>: Repeating structured pattern</li>
+</ul>
+</li>
+</ul><h3 id="section-9-white-background-services-carousel">Section 9 (white background): Services Carousel</h3><ul>
+<li><strong>Sequence 1</strong>: "Horizontal scrollable row of service cards, each with illustration and service information"
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (5 rows, 1-2 columns each depending on structure)</li>
+<li><strong>Reason</strong>: Repeating items in horizontal layout - cards with CSS for scrolling</li>
+</ul>
+</li>
+</ul><h3 id="section-10-white-background-promotional-banners">Section 10 (white background): Promotional Banners</h3><ul>
+<li><strong>Sequence 1</strong>: "Two large promotional banners arranged horizontally, each with image background, promotional text, and call-to-action button"
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (2 rows, 2 columns each: image | text+link) OR <strong>Columns block</strong> (2 columns side-by-side)</li>
+<li><strong>Reason</strong>: Two items side-by-side - could use either approach</li>
+<li><strong>Recommendation</strong>: <strong>Columns block</strong> (1 row, 2 columns) is cleaner for exactly 2 items</li>
+</ul>
+</li>
+</ul><h3 id="section-11-blue-background-newsletter-signup">Section 11 (blue background): Newsletter Signup</h3><ul>
+<li>
+<p><strong>Sequence 1</strong>: "Newsletter signup form with heading, email input field, subscribe button, and privacy policy link"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO - requires form elements</li>
+<li><strong>Decision</strong>: <strong>Custom form or DEFAULT CONTENT with form markup</strong></li>
+<li><strong>Reason</strong>: Forms are typically hand-coded in AEM EDS. Author can add heading, form elements as HTML</li>
+<li><strong>Note</strong>: Could create a dedicated newsletter block if this pattern repeats</li>
+</ul>
+</li>
+<li>
+<p><strong>Sequence 2</strong>: "Grid of 4 benefit items, each with icon, heading, and descriptive text"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (4 rows, 2 columns each: icon | heading+text) OR <strong>Cards (no images)</strong> (4 rows, 1 column each)</li>
+<li><strong>Reason</strong>: Repeating structured pattern with icons</li>
+<li><strong>Recommendation</strong>: Use cards with images (icons as images)</li>
+</ul>
+</li>
+</ul><h3 id="section-12-white-background-product-recalls">Section 12 (white background): Product Recalls</h3><ul>
+<li>
+<p><strong>Sequence 1</strong>: "Centered heading and descriptive paragraph stacked vertically"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? YES</li>
+<li><strong>Decision</strong>: <strong>DEFAULT CONTENT</strong></li>
+<li><strong>Reason</strong>: Heading and paragraph</li>
+</ul>
+</li>
+<li>
+<p><strong>Sequence 2</strong>: "Horizontal scrollable carousel of product recall cards, each with product image, brand name, and linked product title"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (9 rows, 2 columns each: image | brand+link)</li>
+<li><strong>Reason</strong>: Repeating pattern - cards block with CSS for scrolling</li>
+</ul>
+</li>
+<li>
+<p><strong>Sequence 3</strong>: "Single centered link button"</p>
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? YES</li>
+<li><strong>Decision</strong>: <strong>DEFAULT CONTENT</strong></li>
+<li><strong>Reason</strong>: Just a link</li>
+</ul>
+</li>
+</ul><h3 id="section-13-light-grey-background-services-highlights">Section 13 (light grey background): Services Highlights</h3><ul>
+<li><strong>Sequence 1</strong>: "Five service highlight items arranged horizontally, each with icon, bold title, descriptive text, and superscript notation"
+<ul>
+<li><strong>Step 3a Check</strong>: Can author type this normally? NO</li>
+<li><strong>Decision</strong>: <strong>Cards block</strong> (5 rows, 2 columns each: icon | text)</li>
+<li><strong>Reason</strong>: Repeating structured pattern</li>
+</ul>
+</li>
+</ul></div>
+<div><h2 id="step-3d-block-structures-fetched">Step 3d: Block Structures Fetched</h2><h3 id="cards-block-structure">Cards Block Structure</h3><ul>
+<li><strong>Standard cards</strong>: Each card = 1 row with 2 columns [image | heading, paragraph(s), link(s)]</li>
+<li><strong>Cards (no images)</strong>: Each card = 1 row with 1 column [heading, paragraph(s)]</li>
+<li><strong>Example HTML</strong>: See <code>/workspace/migration-work/block-structures-cards.json</code></li>
+</ul><h3 id="columns-block-structure">Columns Block Structure</h3><ul>
+<li><strong>Two columns</strong>: 1 row with 2 columns [content | content]</li>
+<li><strong>Three columns</strong>: 1 row with 3 columns [content | content | content]</li>
+<li><strong>Can have multiple rows</strong>: Each row creates a new columns layout</li>
+<li><strong>Example HTML</strong>: See <code>/workspace/migration-work/block-structures-columns.json</code></li>
+</ul><h3 id="carousel-block-structure">Carousel Block Structure</h3><ul>
+<li><strong>Carousel</strong>: Each slide = 1 row with 1-2 columns [image] or [image | heading, paragraph, link]</li>
+<li><strong>Purpose</strong>: Rotating slideshow, NOT horizontal scrolling category tiles</li>
+<li><strong>Example HTML</strong>: See <code>/workspace/migration-work/block-structures-carousel.json</code></li>
+</ul></div>
+<div><h2 id="step-3e-section-styling-validation">Step 3e: Section Styling Validation</h2><p><strong>Execution trigger check</strong>:</p><ul>
+<li>✅ Step 3 completed (all sequences analyzed)</li>
+<li>Looking for sections with exactly ONE sequence that became a block</li>
+<li>Checking for distinct background styling</li>
+</ul><p><strong>Candidate sections</strong> (single-block sections with styling):</p><p><strong>Section 9</strong> (white background):</p><ul>
+<li>Contains 1 sequence: Cards block</li>
+<li>Background: White (same as default page background)</li>
+<li>Decision: <strong>SKIP section-metadata</strong></li>
+<li>Reason: No distinct styling - white is default</li>
+</ul><p><strong>All other sections</strong> either:</p><ul>
+<li>Have multiple sequences (mix of default content + blocks)</li>
+<li>Have white/default background</li>
+<li>Therefore, no section-metadata validation needed</li>
+</ul><p><strong>RESULT</strong>: No sections require section-metadata based on validation.</p></div>
+<div><h2 id="summary">Summary</h2><p><strong>Total sequences analyzed</strong>: 20 sequences across 13 sections</p><p><strong>Authoring decisions</strong>:</p><ul>
+<li><strong>DEFAULT CONTENT</strong>: 8 sequences (headings, paragraphs, links)</li>
+<li><strong>Cards block</strong>: 10 sequences (various card patterns)</li>
+<li><strong>Columns block</strong>: 1-2 sequences (side-by-side layouts)</li>
+<li><strong>Custom/Form</strong>: 1 sequence (newsletter form)</li>
+</ul><p><strong>Primary block used</strong>: Cards block (with various styling via CSS)
+<strong>Secondary block</strong>: Columns block for explicit side-by-side layouts</p><p><strong>Section metadata</strong>: None required after validation (no single-block sections with distinct styling)</p><p><strong>Next step</strong>: Generate markdown/HTML using these authoring decisions</p></div>

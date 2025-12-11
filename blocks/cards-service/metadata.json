@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-service",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-12-11T09:30:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.decathlon.fr/",
+    "originPage": "Decathlon homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "service-highlight",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon/illustration + title + description text",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "service highlights",
+      "feature descriptions",
+      "benefit showcases with icons"
+    ],
+    "notSuitableFor": [
+      "product listings",
+      "promotional banners",
+      "media galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-11T09:30:00.000Z"
+  }
+}

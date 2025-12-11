@@ -1,0 +1,31 @@
+{
+  "url": "https://www.decathlon.fr/",
+  "timestamp": "2025-12-11T09:15:00.000Z",
+  "paths": {
+    "documentPath": "/index",
+    "htmlFilePath": "content/index.plain.html",
+    "mdFilePath": "content/index.md",
+    "dirPath": "content",
+    "filename": "index"
+  },
+  "previewPath": "http://localhost:3000/index",
+  "screenshot": "./migration-work/screenshot.png",
+  "html": {
+    "filePath": "./migration-work/cleaned.html",
+    "size": 1500
+  },
+  "metadata": {
+    "title": "DECATHLON | Magasin de Sport",
+    "description": "Decathlon homepage with sports equipment, promotional offers, and product categories"
+  },
+  "images": {
+    "count": 0,
+    "mapping": {},
+    "stats": {
+      "total": 0,
+      "converted": 0,
+      "skipped": 0,
+      "failed": 0
+    }
+  }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta
+  http-equiv="Content-Security-Policy"
+  content="script-src 'nonce-aem' 'strict-dynamic' 'unsafe-inline' http: https:; base-uri 'self'; object-src 'none';"
+  move-to-http-header="true"
+>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script nonce="aem" src="/scripts/aem.js" type="module"></script>
+<script nonce="aem" src="/scripts/scripts.js" type="module"></script>
+<link rel="stylesheet" href="/styles/styles.css"/>
+</head>
+<body>
+<header></header>
+<main>
+<div><h1 id="block-variant-mapping-summary">Block Variant Mapping Summary</h1>
+<h2 id="variants-created-6">Variants Created: 6</h2>
+<h3 id="cards-variants-5">Cards Variants (5)</h3>
+<ol>
+<li>
+<p><strong>cards-promo-hero</strong></p>
+<ul>
+<li>Purpose: Large promotional cards with background images and overlay text</li>
+<li>Used in: Section 1</li>
+<li>Visual: Light background, wide density, large images</li>
+</ul>
+</li>
+<li>
+<p><strong>cards-product</strong></p>
+<ul>
+<li>Purpose: Product cards with detailed information, pricing, ratings</li>
+<li>Used in: Sections 3, 5, 7</li>
+<li>Visual: Light background, compact density, large images</li>
+</ul>
+</li>
+<li>
+<p><strong>cards-category</strong></p>
+<ul>
+<li>Purpose: Simple category tiles with image and label for horizontal scrolling</li>
+<li>Used in: Sections 4, 6</li>
+<li>Visual: Light background, compact density, icon-sized images</li>
+</ul>
+</li>
+<li>
+<p><strong>cards-service</strong></p>
+<ul>
+<li>Purpose: Service cards with icons/illustrations and descriptions</li>
+<li>Used in: Sections 9, 11, 13</li>
+<li>Visual: Light background, spacious density, icon images</li>
+</ul>
+</li>
+<li>
+<p><strong>cards-media</strong></p>
+<ul>
+<li>Purpose: Media cards for live shopping or video content</li>
+<li>Used in: Sections 8, 12</li>
+<li>Visual: Dark background, compact density, large images</li>
+</ul>
+</li>
+</ol>
+<h3 id="columns-variants-1">Columns Variants (1)</h3>
+<ol start="6">
+<li><strong>columns-banner</strong>
+<ul>
+<li>Purpose: Two-column layout for promotional banners side-by-side</li>
+<li>Used in: Section 10</li>
+<li>Visual: Light background, minimal density, large images</li>
+</ul>
+</li>
+</ol>
+<h2 id="variant-mapping">Variant Mapping</h2>
+<pre><code class="language-json">{
+  "cards-promo-hero": "cards-promo-hero",
+  "cards-product": "cards-product",
+  "cards-category": "cards-category",
+  "cards-media": "cards-media",
+  "cards-service": "cards-service",
+  "columns-banner": "columns-banner"
+}
+</code></pre>
+<h2 id="files-created">Files Created</h2>
+<p>All variants include:</p>
+<ul>
+<li>✅ {variant-name}.js (JavaScript with updated class names)</li>
+<li>✅ {variant-name}.css (CSS with replaced class names)</li>
+<li>✅ metadata.json (Full metadata for smart reuse)</li>
+</ul>
+<h2 id="validation-results">Validation Results</h2>
+<p>✅ All 6 variants validated successfully
+✅ All JavaScript class names updated correctly
+✅ All metadata.json files created
+✅ Authoring analysis updated with variant names</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>The authoring-analysis.json file has been updated with all variant names and is ready for markdown generation.</p></div>
+</main>
+<footer></footer>
+</body>
+</html>

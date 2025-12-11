@@ -1,0 +1,238 @@
+{
+  "pageUrl": "https://www.decathlon.fr/",
+  "documentPath": "/index",
+  "analysisDate": "2025-12-11T09:30:00.000Z",
+  "sections": [
+    {
+      "sectionNumber": 1,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Three large promotional cards arranged horizontally, each with background image, promotional text overlay, and call-to-action button",
+          "authoringDecision": "block",
+          "blockName": "cards-promo-hero",
+          "blockVariant": "cards-promo-hero",
+          "reason": "Repeating structured pattern - obvious match with cards block"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 2,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Six category links arranged horizontally in a single row",
+          "authoringDecision": "default",
+          "reason": "Author can simply type six links"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 3,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Three promotional cards arranged horizontally, each with product image, promotional text, price, and call-to-action button",
+          "authoringDecision": "block",
+          "blockName": "cards-product",
+          "blockVariant": "cards-product",
+          "reason": "Repeating structured pattern - product cards"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 4,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Single centered heading",
+          "authoringDecision": "default",
+          "reason": "Just a heading"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Horizontal scrollable row of category tiles, each with image and text label",
+          "authoringDecision": "block",
+          "blockName": "cards-category",
+          "blockVariant": "cards-category",
+          "reason": "Repeating items - cards with CSS for scrolling"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 5,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Two-column layout: large promotional banner on left with image and call-to-action, grid of 4 product cards on right",
+          "authoringDecision": "block",
+          "blockName": "cards-product",
+          "blockVariant": "cards-product",
+          "reason": "Simplified to use product cards for both banner and products"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 6,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Single centered heading",
+          "authoringDecision": "default",
+          "reason": "Just a heading"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Horizontal scrollable row of category tiles, each with image and text label",
+          "authoringDecision": "block",
+          "blockName": "cards-category",
+          "blockVariant": "cards-category",
+          "reason": "Same pattern as Section 4"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 7,
+      "background": "light-grey",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Two-column layout: large promotional banner on left with image and link, grid of 4 product cards on right",
+          "authoringDecision": "block",
+          "blockName": "cards-product",
+          "blockVariant": "cards-product",
+          "reason": "Product cards for winter products"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 8,
+      "background": "dark-purple-blue",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered heading and descriptive paragraph stacked vertically",
+          "authoringDecision": "default",
+          "reason": "Heading and paragraph"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Three live shopping cards arranged horizontally, each with thumbnail image, title text, and call-to-action button",
+          "authoringDecision": "block",
+          "blockName": "cards-media",
+          "blockVariant": "cards-media",
+          "reason": "Media cards for live shopping"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 9,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Horizontal scrollable row of service cards, each with illustration and service information",
+          "authoringDecision": "block",
+          "blockName": "cards-service",
+          "blockVariant": "cards-service",
+          "reason": "Service cards with icons"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 10,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Two large promotional banners arranged horizontally, each with image background, promotional text, and call-to-action button",
+          "authoringDecision": "block",
+          "blockName": "columns-banner",
+          "blockVariant": "columns-banner",
+          "reason": "Two-column banner layout"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 11,
+      "background": "blue",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Newsletter signup form with heading, email input field, subscribe button, and privacy policy link",
+          "authoringDecision": "default",
+          "reason": "Form elements - hand-coded as DEFAULT CONTENT"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Grid of 4 benefit items, each with icon, heading, and descriptive text",
+          "authoringDecision": "block",
+          "blockName": "cards-service",
+          "blockVariant": "cards-service",
+          "reason": "Service highlights with icons"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 12,
+      "background": "white",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Centered heading and descriptive paragraph stacked vertically",
+          "authoringDecision": "default",
+          "reason": "Heading and paragraph"
+        },
+        {
+          "sequenceNumber": 2,
+          "description": "Horizontal scrollable carousel of product recall cards, each with product image, brand name, and linked product title",
+          "authoringDecision": "block",
+          "blockName": "cards-media",
+          "blockVariant": "cards-media",
+          "reason": "Product recall cards with images"
+        },
+        {
+          "sequenceNumber": 3,
+          "description": "Single centered link button",
+          "authoringDecision": "default",
+          "reason": "Just a link"
+        }
+      ]
+    },
+    {
+      "sectionNumber": 13,
+      "background": "light-grey",
+      "sequences": [
+        {
+          "sequenceNumber": 1,
+          "description": "Five service highlight items arranged horizontally, each with icon, bold title, descriptive text, and superscript notation",
+          "authoringDecision": "block",
+          "blockName": "cards-service",
+          "blockVariant": "cards-service",
+          "reason": "Service highlights"
+        }
+      ]
+    }
+  ],
+  "variantMapping": {
+    "cards-promo-hero": "cards-promo-hero",
+    "cards-product": "cards-product",
+    "cards-category": "cards-category",
+    "cards-media": "cards-media",
+    "cards-service": "cards-service",
+    "columns-banner": "columns-banner"
+  },
+  "summary": {
+    "totalSections": 13,
+    "totalSequences": 20,
+    "defaultContentSequences": 8,
+    "blockSequences": 12,
+    "variantsCreated": 6
+  }
+}

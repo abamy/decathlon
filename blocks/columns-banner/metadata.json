@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-banner",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2025-12-11T09:30:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.decathlon.fr/",
+    "originPage": "Decathlon homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "promotional-banner",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "two promotional banners side-by-side with images and CTAs",
+    "buttonCount": 2,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional banner sections",
+      "dual CTA layouts",
+      "side-by-side campaign banners"
+    ],
+    "notSuitableFor": [
+      "product grids",
+      "text-heavy columns",
+      "more than 2 columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-11T09:30:00.000Z"
+  }
+}

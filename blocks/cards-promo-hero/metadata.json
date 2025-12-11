@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-promo-hero",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-12-11T09:30:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.decathlon.fr/",
+    "originPage": "Decathlon homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "wide",
+    "purpose": "promotional-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "large background image + promotional text overlay + CTA button",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero sections",
+      "promotional landing pages",
+      "campaign banners"
+    ],
+    "notSuitableFor": [
+      "product listings",
+      "content articles",
+      "simple navigation tiles"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-11T09:30:00.000Z"
+  }
+}

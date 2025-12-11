@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-category",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-12-11T09:30:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.decathlon.fr/",
+    "originPage": "Decathlon homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "category-navigation",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "category image + text label",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "category navigation sections",
+      "horizontal scrolling tiles",
+      "simple image + label grids"
+    ],
+    "notSuitableFor": [
+      "detailed product listings",
+      "content with descriptions",
+      "complex card layouts"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-11T09:30:00.000Z"
+  }
+}

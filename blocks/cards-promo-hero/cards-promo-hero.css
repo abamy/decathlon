@@ -1,0 +1,73 @@
+/* Decathlon hero promotional cards */
+.cards-promo-hero > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.cards-promo-hero > ul > li {
+  border: none;
+  background-color: var(--background-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.cards-promo-hero .cards-promo-hero-card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+  color: white;
+}
+
+.cards-promo-hero .cards-promo-hero-card-body h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 12px 0;
+}
+
+.cards-promo-hero .cards-promo-hero-card-body p {
+  margin: 0;
+}
+
+.cards-promo-hero .cards-promo-hero-card-body a {
+  display: inline-block;
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-color);
+  padding: var(--button-padding);
+  font-size: var(--button-font-size);
+  font-weight: var(--button-font-weight);
+  letter-spacing: var(--button-letter-spacing);
+  border-radius: var(--button-border-radius);
+  text-decoration: none;
+  margin-top: 8px;
+  transition: var(--button-transition);
+}
+
+.cards-promo-hero .cards-promo-hero-card-body a:hover {
+  background-color: var(--link-hover-color);
+}
+
+.cards-promo-hero .cards-promo-hero-card-image {
+  line-height: 0;
+}
+
+.cards-promo-hero > ul > li img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+@media (width >= 900px) {
+  .cards-promo-hero > ul {
+    gap: 16px;
+  }
+}

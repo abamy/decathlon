@@ -1,0 +1,55 @@
+{
+  "templates": [
+    {
+      "name": "decathlon-homepage",
+      "urls": [
+        "https://www.decathlon.fr/"
+      ],
+      "description": "Decathlon homepage template with promotional cards, product listings, and service highlights",
+      "blocks": [
+        {
+          "name": "cards-promo-hero",
+          "instances": [
+            ".hero-banners"
+          ]
+        },
+        {
+          "name": "cards-product",
+          "instances": [
+            ".promotional-cards",
+            ".featured-products",
+            ".winter-products"
+          ]
+        },
+        {
+          "name": "cards-category",
+          "instances": [
+            ".product-carousel",
+            ".product-carousel-2"
+          ]
+        },
+        {
+          "name": "cards-media",
+          "instances": [
+            ".live-shopping",
+            ".product-recalls"
+          ]
+        },
+        {
+          "name": "cards-service",
+          "instances": [
+            ".services-carousel",
+            ".newsletter .benefits",
+            ".services-highlights"
+          ]
+        },
+        {
+          "name": "columns-banner",
+          "instances": [
+            ".promotional-banners"
+          ]
+        }
+      ]
+    }
+  ]
+}

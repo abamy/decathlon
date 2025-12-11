@@ -1,0 +1,77 @@
+/* Decathlon media cards - larger format with overlay */
+.cards-media > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.cards-media > ul > li {
+  border: none;
+  background-color: var(--background-color);
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.cards-media .cards-media-card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  color: white;
+}
+
+.cards-media .cards-media-card-body h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 8px 0;
+}
+
+.cards-media .cards-media-card-body p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.cards-media .cards-media-card-body a {
+  display: inline-block;
+  background-color: white;
+  color: var(--accent-primary);
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: var(--button-border-radius);
+  text-decoration: none;
+  margin-top: 8px;
+  transition: var(--button-transition);
+}
+
+.cards-media .cards-media-card-body a:hover {
+  background-color: var(--light-color);
+}
+
+.cards-media .cards-media-card-image {
+  line-height: 0;
+}
+
+.cards-media > ul > li img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+@media (width >= 900px) {
+  .cards-media > ul {
+    gap: 16px;
+  }
+}
