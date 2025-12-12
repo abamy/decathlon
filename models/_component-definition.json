@@ -1,0 +1,34 @@
+{
+  "groups": [
+    {
+      "title": "Default Content",
+      "id": "default",
+      "components": [
+        {
+          "...": "../ue/models/text.json#/definitions"
+        },
+        {
+          "...": "../ue/models/image.json#/definitions"
+        }
+      ]
+    },
+    {
+      "title": "Sections",
+      "id": "sections",
+      "components": [
+        {
+          "...": "../ue/models/section.json#/definitions"
+        }
+      ]
+    },
+    {
+      "title": "Blocks",
+      "id": "blocks",
+      "components": [
+        {
+          "...": "../ue/models/blocks/*.json#/definitions"
+        }
+      ]
+    }
+  ]
+}

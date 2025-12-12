@@ -1,0 +1,61 @@
+{
+  "definitions": [
+    {
+      "title": "Cards Promo Hero",
+      "id": "cards-promo-hero",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div class=\"cards-promo-hero\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div></div></div></div>"
+        }
+      },
+      "model": "cards-promo-hero",
+      "filter": "cards-promo-hero"
+    },
+    {
+      "title": "Cards Promo Hero Card",
+      "id": "cards-promo-hero-card",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div></div></div>"
+        }
+      },
+      "model": "cards-promo-hero-card"
+    }
+  ],
+  "models": [
+    {
+      "id": "cards-promo-hero-card",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+          "label": "Image Alt",
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "name": "div:nth-child(2)",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "cards-promo-hero",
+      "components": [
+        "cards-promo-hero-card"
+      ]
+    }
+  ]
+}

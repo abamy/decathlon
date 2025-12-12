@@ -1,0 +1,73 @@
+{
+  "definitions": [
+    {
+      "title": "Columns Banner",
+      "id": "columns-banner",
+      "plugins": {
+        "da": {
+          "name": "columns-banner",
+          "rows": 1,
+          "columns": 2,
+          "behaviour": "columns"
+        }
+      }
+    },
+    {
+      "title": "Columns Banner Row",
+      "id": "columns-banner-row",
+      "plugins": {
+        "da": {
+          "name": "columns-banner-row",
+          "behaviour": "columns-row"
+        }
+      }
+    },
+    {
+      "title": "Columns Banner Cell",
+      "id": "columns-banner-cell",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div></div>",
+          "behaviour": "columns-cell"
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "columns-banner",
+      "fields": [
+        {
+          "component": "number",
+          "valueType": "number",
+          "name": "columns",
+          "label": "Number of Columns",
+          "value": 2,
+          "validation": {
+            "numberMin": 1,
+            "numberMax": 6
+          }
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "columns-banner",
+      "components": [
+        "columns-banner-row"
+      ]
+    },
+    {
+      "id": "columns-banner-row",
+      "components": []
+    },
+    {
+      "id": "columns-banner-cell",
+      "components": [
+        "text",
+        "image"
+      ]
+    }
+  ]
+}

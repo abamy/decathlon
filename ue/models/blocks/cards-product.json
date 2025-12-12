@@ -1,0 +1,61 @@
+{
+  "definitions": [
+    {
+      "title": "Cards Product",
+      "id": "cards-product",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div class=\"cards-product\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div></div></div></div>"
+        }
+      },
+      "model": "cards-product",
+      "filter": "cards-product"
+    },
+    {
+      "title": "Cards Product Card",
+      "id": "cards-product-card",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div></div></div>"
+        }
+      },
+      "model": "cards-product-card"
+    }
+  ],
+  "models": [
+    {
+      "id": "cards-product-card",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+          "label": "Image Alt",
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "name": "div:nth-child(2)",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "cards-product",
+      "components": [
+        "cards-product-card"
+      ]
+    }
+  ]
+}

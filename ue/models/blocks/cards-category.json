@@ -1,0 +1,61 @@
+{
+  "definitions": [
+    {
+      "title": "Cards Category",
+      "id": "cards-category",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div class=\"cards-category\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div></div></div></div>"
+        }
+      },
+      "model": "cards-category",
+      "filter": "cards-category"
+    },
+    {
+      "title": "Cards Category Card",
+      "id": "cards-category-card",
+      "plugins": {
+        "da": {
+          "unsafeHTML": "<div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div></div></div>"
+        }
+      },
+      "model": "cards-category-card"
+    }
+  ],
+  "models": [
+    {
+      "id": "cards-category-card",
+      "fields": [
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
+          "label": "Image",
+          "multi": false
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+          "label": "Image Alt",
+          "multi": false
+        },
+        {
+          "component": "richtext",
+          "name": "div:nth-child(2)",
+          "value": "",
+          "label": "Text",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "cards-category",
+      "components": [
+        "cards-category-card"
+      ]
+    }
+  ]
+}

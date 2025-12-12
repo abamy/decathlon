@@ -10,8 +10,14 @@
     "components": [
       "accordion",
       "cards",
+      "cards-category",
+      "cards-media",
+      "cards-product",
+      "cards-promo-hero",
+      "cards-service",
       "carousel",
       "columns",
+      "columns-banner",
       "embed",
       "fragment",
       "form",
@@ -32,6 +38,36 @@
     ]
   },
   {
+    "id": "cards-category",
+    "components": [
+      "cards-category-card"
+    ]
+  },
+  {
+    "id": "cards-media",
+    "components": [
+      "cards-media-card"
+    ]
+  },
+  {
+    "id": "cards-product",
+    "components": [
+      "cards-product-card"
+    ]
+  },
+  {
+    "id": "cards-promo-hero",
+    "components": [
+      "cards-promo-hero-card"
+    ]
+  },
+  {
+    "id": "cards-service",
+    "components": [
+      "cards-service-card"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
@@ -41,6 +77,23 @@
     "id": "carousel",
     "components": [
       "carousel-item"
+    ]
+  },
+  {
+    "id": "columns-banner",
+    "components": [
+      "columns-banner-row"
+    ]
+  },
+  {
+    "id": "columns-banner-row",
+    "components": []
+  },
+  {
+    "id": "columns-banner-cell",
+    "components": [
+      "text",
+      "image"
     ]
   },
   {

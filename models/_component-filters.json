@@ -1,0 +1,12 @@
+[
+  {
+    "id": "main",
+    "components": ["section"]
+  },
+  {
+    "...": "../ue/models/section.json#/filters"
+  },
+  {
+    "...": "../ue/models/blocks/*.json#/filters"
+  }
+]
